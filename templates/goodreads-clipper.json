@@ -63,7 +63,7 @@
 		},
 		{
 			"name": "tags",
-			"value": "books, to-read",
+			"value": "books",
 			"type": "multitext"
 		}
 	],
