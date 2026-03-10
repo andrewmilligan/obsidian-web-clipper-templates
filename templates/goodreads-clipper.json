@@ -4,7 +4,7 @@
 	"behavior": "create",
 	"noteNameFormat": "{{selector:.BookPageTitleSection__title h1}}",
 	"path": "Clippings",
-	"noteContentFormat": "{{selector:.BookPageMetadataSection__description}}",
+	"noteContentFormat": "## Summary\n\n{{selector:.BookPageMetadataSection__description}}\n\n## Notes\n\n",
 	"properties": [
 		{
 			"name": "title",
