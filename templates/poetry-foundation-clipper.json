@@ -1,0 +1,33 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Poetry Foundation",
+	"behavior": "create",
+	"noteContentFormat": "Tags: \n\n## Poem\n\n{{selectorHtml:.poem-body|markdown}}\n\n## Notes\n\n",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{selector:#mainContent h1}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{selector:#mainContent header a|wikilink}}",
+			"type": "multitext"
+		},
+		{
+			"name": "link",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		}
+	],
+	"triggers": [
+		"https://www.poetryfoundation.org/poems/"
+	],
+	"noteNameFormat": "{{selector:#mainContent h1}}",
+	"path": "01 - Source Material/Poetry"
+}
