@@ -25,6 +25,11 @@
 			"type": "multitext"
 		},
 		{
+			"name": "cover",
+			"value": "",
+			"type": "text"
+		},
+		{
 			"name": "created",
 			"value": "{{date}}",
 			"type": "date"
