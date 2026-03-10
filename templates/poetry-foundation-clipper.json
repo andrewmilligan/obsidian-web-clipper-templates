@@ -20,6 +20,11 @@
 			"type": "text"
 		},
 		{
+			"name": "categories",
+			"value": "{{selector:a[href^=\\\"/categories/\\\"], a[href^=\\\"https://www.poetryfoundation.org/categories/\\\"]|wikilink}}",
+			"type": "multitext"
+		},
+		{
 			"name": "created",
 			"value": "{{date}}",
 			"type": "date"
