@@ -62,7 +62,7 @@
 		{
 			"name": "lastRead",
 			"value": "",
-			"type": "text"
+			"type": "date"
 		},
 		{
 			"name": "tags",
