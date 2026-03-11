@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "categories",
-			"value": "{{selector:a[href^=\\\"/categories/\\\"], a[href^=\\\"https://www.poetryfoundation.org/categories/\\\"]|wikilink}}",
+			"value": "{{selector:a[href^=\\\"/categories/\\\"], a[href^=\\\"https://www.poetryfoundation.org/categories/\\\"]|lower|wikilink}}",
 			"type": "multitext"
 		},
 		{

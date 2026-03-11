@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "genre",
-			"value": "{{selector:.BookPageMetadataSection__genres .BookPageMetadataSection__genreButton|wikilink}}",
+			"value": "{{selector:.BookPageMetadataSection__genres .BookPageMetadataSection__genreButton|lower|wikilink}}",
 			"type": "multitext"
 		},
 		{

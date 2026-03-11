@@ -43,6 +43,6 @@
 	"triggers": [
 		"https://www.youtube.com/watch?v="
 	],
-	"noteNameFormat": "{{schema:author}} – {{schema:name}}",
+	"noteNameFormat": "{{schema:name}} - {{schema:author}}",
 	"path": "01 - Source Material/Videos"
 }
