@@ -1,0 +1,33 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Substack",
+	"behavior": "create",
+	"noteContentFormat": "Tags: [[Substack]]\n\n## Notes\n\n",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "description",
+			"value": "{{meta:name:description}}",
+			"type": "text"
+		},
+		{
+			"name": "cover",
+			"value": "{{meta:property:og:image}}",
+			"type": "text"
+		},
+		{
+			"name": "url",
+			"value": "{{meta:property:og:url}}",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://substack.com/home/post/"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "01 - Source Material/Essays & Articles"
+}
