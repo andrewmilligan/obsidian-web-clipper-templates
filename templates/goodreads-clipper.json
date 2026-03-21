@@ -65,6 +65,11 @@
 			"type": "date"
 		},
 		{
+			"name": "readYears",
+			"value": "",
+			"type": "multitext"
+		},
+		{
 			"name": "tags",
 			"value": "books",
 			"type": "multitext"
